@@ -2,7 +2,7 @@
 const mongoose = require("mongoose")
 const connection = process.env.MONGODB_URI
 
-mongoose.connect(connection)
+mongoose.connect(connection) //
 
 const User = mongoose.model("User")
 const Item = mongoose.model("Item")
